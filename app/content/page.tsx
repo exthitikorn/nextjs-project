@@ -18,7 +18,7 @@ export default async function ContentPage() {
       {
         blogs.map((blog: any, index: any) => (
           <div key={index}>
-            {blog.id}{blog.name}
+            {blog.id} {blog.name}
           </div>
         ))
       }
